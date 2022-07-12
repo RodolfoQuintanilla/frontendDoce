@@ -87,3 +87,19 @@
     align-items: center;
     justify-content: space-between;
  }
+
+ @media screen and (max-width: 799px) {
+    .container {
+       padding: 20px;
+    }
+
+    .container__figure {
+       width: 500px;
+       border-radius: 10px 10px 0 0;
+    }
+
+    .container__texto {
+       border-radius: 0 0 10px 10px;
+       height: 100%;
+    }
+ }
